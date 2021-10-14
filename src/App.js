@@ -53,7 +53,7 @@ function App() {
       <MagicTitle>
         Magic 8-Ball
       </MagicTitle>
-      <MagicBall src={logo} checked={trigger}/>
+      <MagicBall src={logo} checked={trigger} aria-label="Magic 8-Ball"/>
       <ResultContainer>
         <Result id="query"></Result>
       </ResultContainer>
