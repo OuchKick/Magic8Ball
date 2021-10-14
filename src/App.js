@@ -14,19 +14,23 @@ function App() {
  
   const myFunction = () => {
     setTrigger(true);
+    // Regex to confirm that there's letters, spaces, and question marks for the question
     if (question.match(/^[A-Za-z'0-9 ]+[?]/)) {
       fetch(uri)
       .then(response => response.json())
       .then(json => {
         console.log(json);
+        // Inserts answer into Div
         document.getElementById("query").innerHTML = JSON.stringify(json.magic.answer);
         checkHistory(question, json.magic.answer);
       }) 
     } else {
+      // If question does not have a question mark, else runs
       document.getElementById("query").innerHTML = "That wasn't a question.";
     } 
   };
 
+  // Removes an entry if over 10 entries available
   const checkHistory = (question, x) => {
     if (history.length === 10) {
       history.shift();
@@ -36,11 +40,13 @@ function App() {
     }
   };
 
+    // Set state for question and trigger animation effect
   const questionFunc = (e) => {
       setQuestion(e.target.value);
       setTrigger(false);
     };
 
+    // Alert will display history
   const historyAlert = () => {
     window.alert(history);
   };
