@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/Magic8Ball/static/css/main.6dea0f05.chunk.css",
+    "main.js": "/Magic8Ball/static/js/main.b94fea74.chunk.js",
+    "main.js.map": "/Magic8Ball/static/js/main.b94fea74.chunk.js.map",
+    "runtime-main.js": "/Magic8Ball/static/js/runtime-main.194eb2d8.js",
+    "runtime-main.js.map": "/Magic8Ball/static/js/runtime-main.194eb2d8.js.map",
+    "static/js/2.cf6b58ee.chunk.js": "/Magic8Ball/static/js/2.cf6b58ee.chunk.js",
+    "static/js/2.cf6b58ee.chunk.js.map": "/Magic8Ball/static/js/2.cf6b58ee.chunk.js.map",
+    "static/js/3.2a5a1501.chunk.js": "/Magic8Ball/static/js/3.2a5a1501.chunk.js",
+    "static/js/3.2a5a1501.chunk.js.map": "/Magic8Ball/static/js/3.2a5a1501.chunk.js.map",
+    "index.html": "/Magic8Ball/index.html",
+    "static/css/main.6dea0f05.chunk.css.map": "/Magic8Ball/static/css/main.6dea0f05.chunk.css.map",
+    "static/js/2.cf6b58ee.chunk.js.LICENSE.txt": "/Magic8Ball/static/js/2.cf6b58ee.chunk.js.LICENSE.txt",
+    "static/media/8ball.dac8179e.png": "/Magic8Ball/static/media/8ball.dac8179e.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.194eb2d8.js",
+    "static/js/2.cf6b58ee.chunk.js",
+    "static/css/main.6dea0f05.chunk.css",
+    "static/js/main.b94fea74.chunk.js"
+  ]
+}
